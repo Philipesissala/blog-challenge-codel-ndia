@@ -11,7 +11,7 @@ const Header = () => {
   };
   const articleStyle = {
     position: "relative",
-    maxWidth: "69%",
+    maxWidth: "62%",
     margin: "0 auto",
   };
   const navStyle = {
@@ -29,11 +29,11 @@ const Header = () => {
     position: "absolute",
     width: "100%",
     height: "65px",
-    marginTop: "75px",
+    marginTop: "70px",
     outline: "none",
     border: "none",
     borderRadius: "5px",
-    backgroundColor: "rgba(255, 255, 255, 0.2)",
+    backgroundColor: "rgba(255, 255, 255, 0.4)",
     color: "#FFFFFF",
     opacity: 0.5,
     fontFamily: "Inter",
@@ -42,7 +42,9 @@ const Header = () => {
     fontWeight: "500",
     lineHeight: "22px",
     paddingLeft: 17,
+    backgroundImage: "",
   };
+
   return (
     <div>
       <header style={headerStyle}>
@@ -51,11 +53,13 @@ const Header = () => {
             <a>Codelândia</a>
             <a>Blog</a>
           </nav>
-          <input
-            type="text"
-            style={inputSearch}
-            placeholder="Pesquisar no blog"
-          />
+          <div>
+            <input
+              type="text"
+              style={inputSearch}
+              placeholder="Pesquisar no blog"
+            />
+          </div>
         </article>
       </header>
     </div>
