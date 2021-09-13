@@ -2,14 +2,14 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@500&family=Lexend+Deca&display=swap");
 
 body {
-    margin: 0;
-    padding: 0;
-    border: 0;
-    box-sizing: border-box;
-    background-color: rgba(243, 245, 247, 1);
-  }
-  
-  input::placeholder {
-    color: #f0f0f2;
-  }
-  
+  position: absolute;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  box-sizing: border-box;
+  background-color: #f3f4f7;
+}
+
+input::placeholder {
+  color: #f0f0f2;
+}

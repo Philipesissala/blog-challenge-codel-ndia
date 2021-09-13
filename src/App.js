@@ -1,11 +1,15 @@
-import Header from "./Header";
+import React from "react";
 
-import "./global.css"
+import Header from "./Header";
+import Card from "./Card";
+
+import "./global.css";
 
 const App = () => {
   return (
     <div>
       <Header />
+      <Card />
     </div>
   );
 };
