@@ -1,6 +1,8 @@
 import React from "react";
 
+import "../global.css";
 import "./styles.css";
+import searchImg from "../assets/search.svg";
 
 const Header = () => {
   return (
@@ -17,6 +19,7 @@ const Header = () => {
               placeholder="Pesquisar no blog"
               className="inputSearch"
             />
+            <img src={searchImg} alt="search" />
           </div>
         </article>
       </header>

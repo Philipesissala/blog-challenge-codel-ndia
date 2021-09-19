@@ -8,8 +8,9 @@ body {
   border: 0;
   box-sizing: border-box;
   background-color: #f3f4f7;
+  width: 100%;
 }
 
 input::placeholder {
-  color: #f0f0f2;
+  color: #b3b5b7;
 }

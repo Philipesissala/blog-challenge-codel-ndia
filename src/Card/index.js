@@ -1,18 +1,16 @@
 import React from "react";
 
+import "../global.css";
 import "./styles.css";
+import hearthImg from "../assets/hearth.svg";
 
-const Card = () => {
+const Card = ({ date,title,children }) => {
   return (
     <div className="card-container">
-      <p>02 de jul, 2021</p>
-      <h1>Agora é oficial: o windows 11 está vindo</h1>
-      <p>
-        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusantium,
-        in perferendis numquam repellendus harum neque laborum ipsum blanditiis!
-        Pariatur recusandae expedita nobis doloribus obcaecati sequi quidem modi
-        delectus illo nulla?
-      </p>
+      <p>{date}</p>
+      <h1>{title}</h1>
+      <img src={hearthImg} alt="hearth" />
+      <p>{children}</p>
     </div>
   );
 };

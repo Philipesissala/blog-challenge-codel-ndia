@@ -1,8 +1,25 @@
-.card-container{
-    position: relative;
-    background-color: #fff;
-    max-width: 65%;
-    margin: 7vh auto;
-    border-radius: 5px;
-    padding: 10px 20px 10px 20px ;
+.card-container {
+  position: relative;
+  background-color: #fff;
+  max-width: 65%;
+  margin: 7vh auto;
+  border-radius: 5px;
+  padding: 10px 20px 10px 20px;
+  box-shadow: 0 0 3px rgba(1, 1, 1, 0.1);
+  font-family: Inter, sans-serif;
+}
+
+.card-container img {
+  position: absolute;
+  right: 20px;
+  top: 20px;
+}
+
+.card-container p {
+  color: #b6b6b6;
+  
+}
+
+.card-container img + p {
+  line-height: 25px;
 }
