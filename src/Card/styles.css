@@ -17,7 +17,10 @@
 
 .card-container p {
   color: #b6b6b6;
-  
+}
+
+.card-container h1 {
+  font-size: 20px;
 }
 
 .card-container img + p {

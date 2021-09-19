@@ -13,6 +13,7 @@
 .container article {
   position: relative;
   max-width: 62%;
+  right: 30px;
   margin: 0 auto;
 }
 
@@ -20,6 +21,7 @@
   display: flex;
   justify-content: space-between;
   color: rgba(255, 255, 255, 1);
+  width: 108%;
   font-family: Lexend Deca, sans-serif;
   font-weight: normal;
   font-style: normal;
@@ -37,7 +39,7 @@
   background-color: "rgba(255, 255, 255, 0.4)";
   color: rgb(187, 181, 181);
   opacity: 0.2;
-  font-family: Inter,sans-serif;
+  font-family: Inter, sans-serif;
   font-size: 18px;
   font-style: normal;
   font-weight: 500;
@@ -46,8 +48,20 @@
   background-image: "";
 }
 
-.container img{
+.container img {
   position: absolute;
-  top:121px;
+  top: 121px;
   left: 20px;
+}
+
+@media only screen and (max-width: 700px) {
+  .container article {
+    position: relative;
+    right: 32px;
+    max-width: 80%;
+  }
+
+  .container nav {
+    width: 115%;
+  }
 }
