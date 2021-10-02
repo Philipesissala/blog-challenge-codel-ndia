@@ -4,7 +4,7 @@ import "../global.css";
 import "./styles.css";
 import hearthImg from "../assets/hearth.svg";
 
-const Card = ({ date,title,children }) => {
+const Card = ({ date, title, children }) => {
   return (
     <div className="card-container">
       <p>{date}</p>
